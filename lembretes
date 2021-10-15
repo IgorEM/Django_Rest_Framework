@@ -1,0 +1,23 @@
+serializer transforma um objeto python em json, por exemplo,
+pra mandar isso pela rede, e do outro lado pode ter outro serializer
+
+texto não é muito performatico
+
+tudo que fazemos hoje no mundo rest eh mandar json pra k e pra la
+
+o HTTP2 conseguimos trabalhar com arquios binarios
+multiplexaçao - permite que o servdor mande dados de uma vez só, inclusive ao mesmo tempo que o cliente manda dados o servidor manda dados pro cliente ao mesmo tempo
+
+existe outro modelo de comunicação chamdo gRCP que utiliza as ideias do HTTP2
+o gRPC é uma alternativa ao rest
+
+Remote procedure count, a aplicaçao python pode chamar um metodo em c
+
+o rest eh de longe o cara que eh mais usado para que dois sistemas conversem
+
+PRECISAMOS PEGAR OS TEXTOX E TRANSFORMAR EM OBJETOS JAVA,PYTHON,ETC PARA TRABALHARMOS DENTRO DE NOSSA APLICAÇÃO
+
+RECEBEMOS UM JSON DE UMA PESSOA , MAS PRECISAMOS CRIAR UMA INSTANCIA DE UM MODEL DE USER COM ESSE JSON
+para brincar,salvar  ,persistir,etc o papel do serializer eh receber essa informaçao , transformar em objeto python,
+
+a funçao do serializer e pegar o objeto que esta trabalhando , transformar em json ou visse e versa
